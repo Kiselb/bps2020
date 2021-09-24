@@ -1,0 +1,60 @@
+@import url('../../index.constants.css');
+
+.signin {
+    background: var(--main-background);
+    border-radius: 15px;
+
+    width: 100%;
+    height: 100%;
+}
+.signinplate {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+}
+.signinerrors {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 7rem;
+    color: #ccc;
+}
+.signinerrors > div {
+    display: flex;
+    justify-content: center;
+}
+::placeholder {
+    color: #cecece
+}
+.signin input, .signin button {
+    width: 13rem;
+    box-sizing: border-box;
+    font-family: var(--main-font-family);
+    padding: 0.5rem;
+    border: 1px solid var(--main-background);
+    border-radius: 5px;
+}
+.signin input {
+    display: block;
+    outline: none;
+    margin-bottom: 0.25rem;
+}
+.signin button {
+    background-color: #a5cffc;
+    color: #555;
+}
+.signin button:hover {
+    cursor: pointer;
+}
+.signin a {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    text-decoration: underline;
+    color: rgb(66, 64, 185);
+}
+.signin a:hover {
+    cursor: pointer;
+}
